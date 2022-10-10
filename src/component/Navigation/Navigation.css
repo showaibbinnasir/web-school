@@ -1,0 +1,9 @@
+.active{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.navlink a{
+    padding: 10px;
+}
