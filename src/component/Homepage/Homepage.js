@@ -16,7 +16,7 @@ const Homepage = () => {
             </div>
             <div>
                 <h1 className='mt-5 text-3xl font-semibold'>Topic</h1>
-                <div className='mt-5 grid grid-cols-2 mx-5'>
+                <div className='mt-5 grid grid-cols-1 lg:grid-cols-2 mx-5'>
                     {
                         topics.map(topic => <Topic key={topic.id} topic={topic}></Topic>)
                     }
