@@ -10,7 +10,7 @@ const Navigation = () => {
                 fluid={true}
                 rounded={true}
             >
-                <Navbar.Brand href="https://flowbite.com/">
+                <Navbar.Brand href="/home">
                     <h1 className='text-xl font-semibold'>Web-<span className='text-yellow-300 shadow-md p-1'>School</span></h1>
                 </Navbar.Brand>
                 <Navbar.Toggle />
