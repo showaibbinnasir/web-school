@@ -1,0 +1,12 @@
+.banner{
+    background-image:linear-gradient(to bottom,rgba(255, 239, 251, 0.73), rgba(255, 227, 44, 0.52)), url("./banner.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+

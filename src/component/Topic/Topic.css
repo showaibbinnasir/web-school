@@ -1,0 +1,10 @@
+.topic-item img{
+    width: 200px;
+    
+}
+
+.topic-item{
+    background-color: grey;
+    margin: 15px;
+    padding: 15px;
+}
