@@ -1,16 +1,31 @@
 import React from 'react';
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import './Option.css'
 
-const Option = ({option, handle}) => {
+const Option = ({option, answere}) => {
+    const notify = () => toast("Correct Answere");
+    const wrongnotify = () => toast("Wrong Answere");
     
+    const isClicked = (option) => {
+        if(answere === option){
+            
+            notify();
+            
+        }
+        else{
+            
+            wrongnotify()
+        }
+    }   
     return (
         <div>
-            <div onClick={()=>handle(option)} className='optionItem'>
+            <div onClick={()=>isClicked(option)} className='optionItem'>
+            
             <h1>{option}</h1>
             
             </div>
             <ToastContainer></ToastContainer>
+            
         </div>
         
         
