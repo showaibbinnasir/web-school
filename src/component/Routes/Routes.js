@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Default from "../../layout/Default/Default";
 import Blog from "../Blog/Blog";
+import ErrorPage from "../ErrorPage/ErrorPage";
 import Homepage from "../Homepage/Homepage";
 import QuizItems from "../QuizItems/QuizItems";
 import Stats from "../Stats/Stats";
@@ -9,7 +10,7 @@ import Topics from "../Topics/Topics";
 const router = createBrowserRouter([
     {path : '/',
     element : <Default></Default>,
-    errorElement:<div>Link destroyed or not found , 404 error</div>,
+    errorElement:<ErrorPage></ErrorPage>,
     loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
     children : [
         {

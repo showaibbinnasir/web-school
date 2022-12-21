@@ -19,7 +19,7 @@ const Option = ({option, answere}) => {
     }   
     return (
         <div>
-            <div onClick={()=>isClicked(option)} className='optionItem'>
+            <div onClick={()=>isClicked(option)} className='optionItem'  data-aos="zoom-in-down">
             
             <h1>{option}</h1>
             

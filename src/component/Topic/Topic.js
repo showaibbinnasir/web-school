@@ -9,7 +9,7 @@ const Topic = ({topic}) => {
         navigate(`/course/${id}`);
     }
     return (
-        <div className='topic-item'>
+        <div className='topic-item' data-aos="zoom-in-down">
             <div className='flex justify-center'>
                 <img src={topic.logo} alt="" />
             </div>

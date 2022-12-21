@@ -1,0 +1,10 @@
+.error a{
+    padding: 15px;
+}
+
+.error{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
