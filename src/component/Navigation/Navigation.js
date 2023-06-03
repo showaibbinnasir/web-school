@@ -20,7 +20,7 @@ const Navigation = () => {
                      to='/home'>Home</NavLink>
                     <NavLink to='/topic'>Topic</NavLink>
                     <NavLink to='/stats'>Stats</NavLink>
-                    <NavLink to='/blog'>Blog</NavLink> 
+                    <NavLink to='/blog'>Learning Section</NavLink> 
                 </Navbar.Collapse>
             </Navbar>
         </div>

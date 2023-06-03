@@ -7,6 +7,8 @@ const QuizItems = () => {
     const {data} = quizs;
     const {questions} = data;
     console.log(questions)
+    const totalNumber = 0;
+    console.log(totalNumber);
     return (
         <div className=' text-center mt-5'>
             <h1 className='text-3xl font-semibold'>Quiz on {data.name}</h1>
@@ -14,7 +16,7 @@ const QuizItems = () => {
             <p className='text-sm text-red-500'>Scroll to load</p>
             <div className='mx-5 lg:mx-20' >
                 {
-                    questions.map(question => <Questions key={question.id} question={question}></Questions>)
+                    questions.map(question => <Questions key={question.id} question={question} total={totalNumber}></Questions>)
                 }
             </div>
         </div>
